@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="paddingLeftAndRight">15dp</dimen>
+
+    <!-- 小嘀3.0尺寸方案 -->
+    <dimen name="action_bar_height">44dp</dimen>
+    <dimen name="horizontal_panding">15dp</dimen>
+    <dimen name="vertical_margin">20dp</dimen>
+    <dimen name="block_height">50dp</dimen>
+    <dimen name="base_block_height">44dp</dimen>
+    <dimen name="back_icon_width">18dp</dimen>
+    <dimen name="back_icon_height">18dp</dimen>
+    <dimen name="password_eye_width">20dp</dimen>
+    <dimen name="password_eye_height">11dp</dimen>
+    <dimen name="capture_icon_width">25dp</dimen>
+    <dimen name="capture_icon_height">25dp</dimen>
+</resources>

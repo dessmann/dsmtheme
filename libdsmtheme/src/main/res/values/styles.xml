@@ -1,0 +1,87 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LoadTheme" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/loading</item>
+    </style>
+    <!--按钮基类样式-->
+    <style name="ButtonBase" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:background">@drawable/button_base</item>
+        <item name="android:textColor">@drawable/button_base_text</item>
+    </style>
+    <!--一级正常按钮-->
+    <style name="ButtonNormal" parent="ButtonBase">
+        <item name="android:background">@drawable/button_normal</item>
+        <item name="android:textColor">@drawable/button_normal_text</item>
+    </style>
+    <!--一级警告按钮-->
+    <style name="ButtonWarn" parent="ButtonBase">
+        <item name="android:background">@drawable/button_warn</item>
+        <item name="android:textColor">@drawable/button_warn_text</item>
+    </style>
+    <!--二级正常按钮-->
+    <style name="ButtonSecond" parent="ButtonBase">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/button_second</item>
+        <item name="android:textColor">@drawable/button_second_text</item>
+    </style>
+    <!--轻弱按钮-->
+    <style name="ButtonWeak" parent="ButtonBase">
+        <item name="android:background">@drawable/button_weak</item>
+        <item name="android:textColor">@drawable/button_weak_text</item>
+    </style>
+    <style name="ButtonWeak3" parent="ButtonBase">
+        <item name="android:background">@drawable/button_weak_3</item>
+        <item name="android:textColor">@drawable/button_weak_text_3</item>
+    </style>
+    <!--开关按钮基类样式-->
+    <style name="ToggleButtonBase">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textOff"> </item>
+        <item name="android:textOn"> </item>
+        <item name="android:background">@drawable/toggle_base</item>
+    </style>
+    <!--密码可见性按钮样式-->
+    <style name="ToggleButtonPwd" parent="ToggleButtonBase">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">11dp</item>
+        <item name="android:background">@drawable/toggle_pwd</item>
+    </style>
+    <!--Radio效果按钮样式-->
+    <style name="ToggleButtonRadio" parent="ToggleButtonBase">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:background">@drawable/toggle_radio</item>
+    </style>
+    <!--输入框基类样式-->
+    <style name="EditTextBase">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/textColor33</item>
+        <item name="android:textColorHint">@color/textColor9b</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--带左边icon输入框样式-->
+    <style name="EditTextWithLeftDrawable" parent="EditTextBase">
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+</resources>

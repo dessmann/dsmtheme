@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dcbc94</color>
+    <color name="colorPrimaryDark">#dcbc94</color>
+    <color name="colorAccent">#dcbc94</color>
+
+    <!--主色调-->
+    <color name="mainColor">#dcbc94</color>
+    <!--正文文案-->
+    <color name="textColor33">#333333</color>
+    <!--说明性文案-->
+    <color name="textColor9b">#9b9b9b</color>
+    <!--警示性颜色-->
+    <color name="warnColor">#ff3b30</color>
+    <!--说明性文案-->
+    <color name="textColor66">#666666</color>
+    <!--分割线颜色-->
+    <color name="dividerColor">#e7e7e7</color>
+    <!--边框颜色-->
+    <color name="borderColor">#c7c7c7</color>
+    <!--背景颜色-->
+    <color name="backgroundColor">#efeff4</color>
+
+
+    <!--普通按钮颜色-->
+    <color name="buttonBaseColor">#dcbc94</color>
+    <!--普通按钮按后颜色-->
+    <color name="buttonBasePressColor">#cbad87</color>
+    <!--普通按钮不可用颜色-->
+    <color name="buttonBaseUnenableColor">#cacaca</color>
+    <!--按钮字体颜色-->
+    <color name="buttonBaseTextColor">#ffffff</color>
+    <!--按钮按后字体颜色-->
+    <color name="buttonBasePressTextColor">#f0e8e0</color>
+    <!--按钮不可用字体颜色-->
+    <color name="buttonBaseUnenableTextColor">#f4eee9</color>
+    <!--普通按钮颜色-->
+    <color name="buttonNormalColor">#dcbc94</color>
+    <!--普通按钮按后颜色-->
+    <color name="buttonNormalPressColor">#cbad87</color>
+    <!--普通按钮不可用颜色-->
+    <color name="buttonNormalUnenableColor">#e8ddd2</color>
+    <!--警告按钮颜色-->
+    <color name="buttonWarnColor">#ff3b30</color>
+    <!--警告按钮按后颜色-->
+    <color name="buttonWarnPressColor">#fb2317</color>
+    <!--轻弱按钮颜色-->
+    <color name="buttonWeakColor">#ffffff</color>
+    <!--轻弱按钮按后颜色-->
+    <color name="buttonWeakPressColor">#dfdfdf</color>
+    <!--轻弱按钮字体色-->
+    <color name="buttonWeakTextColor">#333333</color>
+    <!--轻弱按钮按后字体色-->
+    <color name="buttonWeakTextPressColor">#5c5c5c</color>
+
+    <!--透明色-->
+    <color name="transparent">#00000000</color>
+    <!--透明色-->
+    <color name="transparent80">#CC000000</color>
+    <color name="transparent20">#33000000</color>
+    <!--协议颜色-->
+    <color name="linkTextColor">#60739a</color>
+    <!--普通点颜色-->
+    <color name="pointNormalColor">#cacaca</color>
+
+    <!-- 小嘀3.0配色方案 -->
+    <color name="colorTheme">#dcbc94</color>
+    <color name="colorMainBg">#efeff4</color>
+    <color name="colorMainText">#333333</color>
+    <color name="colorSubMainText">#666666</color>
+    <color name="colorDescText">#9b9b9b</color>
+    <color name="colorWarning">#ff3b30</color>
+    <color name="colorDivider">#e7e7e7</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="maskbg">#f7f7f7</color>
+    <color name="clickable">#60739a</color>
+    <color name="progressColor">#FF7435</color>
+    <color name="pointColor">#f1e4d4</color>
+    <color name="colorff">#10AEFF</color>
+    <color name="color7345">#FF7345</color>
+
+    <!--白色-->
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_9b">#ff9B9B9B</color>
+    <color name="black_9a">#ff60739A</color>
+
+    <color name="textColor030303">#030303</color>
+</resources>
